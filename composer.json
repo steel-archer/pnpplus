@@ -1,0 +1,16 @@
+{
+    "name": "steel-archer/pnpplus",
+    "description": "products-n-prices overhaul",
+    "type": "project",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Bohdan Sokulskyi",
+            "email": "steel-archer@github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Pnpp\\": "src/"}
+    }
+}

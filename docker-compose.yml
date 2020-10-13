@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  php:
+    build: './docker'
+    volumes:
+      - './:/var/www/html'
+    ports:
+      - 8008:80
+    networks:
+      - 'pnpplus'
+
+networks:
+  pnpplus:
